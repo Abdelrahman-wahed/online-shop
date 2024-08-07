@@ -1,0 +1,118 @@
+body{
+
+    background-image:url("background.jpg");
+	
+    background-repeat: no-repeat;
+    background-size:  cover;
+    color: white;
+    margin: 0;
+   
+}
+header{
+    position: relative;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+background-color: #00000066;
+padding: 30px;
+height: 55px;
+
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight:600;
+    align-self: space-between;
+    margin-right: 50px;
+
+    
+}
+a:hover{
+    color: #00b894;
+}
+.p-header{
+    position: absolute;
+    left:0;
+    display: inline-block;
+    font-weight:600;
+    justify-content: flex-start;
+    margin-left: 60px;
+    font-size: 24px;
+}
+main{
+    
+    position: absolute;
+    top: 280px;
+    left: 86px;
+}
+.p-main-1{
+font-size: 40px;
+
+word-spacing: 4px;
+}
+h1{
+    font-size: 40px;
+   
+}
+h1,
+.p-main-1{
+    text-shadow: 3px 0px 6px black;
+}
+.p-main-2{
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;;
+margin-left: 34px;
+}
+input{
+    border: none;
+    padding: 12px 21px;
+    border-radius: 5px;
+   letter-spacing:2px;
+    cursor: pointer;
+    font-family: initial;
+    word-spacing: 4px;
+}
+input:first-of-type{
+   margin-left:45px;
+    
+}
+input:first-of-type:hover{
+    background-color:#00b894 ;
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+input:last-of-type{
+    background-color:#00b894 ;
+    color: white;
+    
+}
+input:last-of-type:hover{
+    background-color: white;
+    color: initial;
+    transition: 0.5s;
+}
+span{
+    color:#00b894;
+    margin-left: 90px;
+}
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color: #00b894;
+}
+
+@keyframes  changetext{
+	0%{content: "UTTAR PRADESH"}
+	20%{content: "AGRA"}
+	35%{content: "DELHI"}
+	60%{content: "KERALA"}
+	80%{content: "JAIPUR"}
+	100%{content: "MUMBAI"}
+}
